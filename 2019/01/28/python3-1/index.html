@@ -163,7 +163,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://ivagrancy.github.io/2019/01/28/python3-1/" data-id="cjrgeyerf0001qlad9tap2jvh" class="article-share-link">分享</a>
+      <a data-url="https://ivagrancy.github.io/2019/01/28/python3-1/" data-id="cjrgfcxhb0001ssadu4gakua5" class="article-share-link">分享</a>
       
       
       
@@ -245,6 +245,8 @@
        
       
       
+           <div id="gitment_comments"></div>
+    
   </div>
  
   
@@ -335,6 +337,22 @@ window.onload = function() {
 
 <!-- author:forvoid begin -->
 <!-- author:forvoid begin -->
+
+  <link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+  <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script> 
+  <script>
+  var gitment = new Gitment({
+    // id: '页面 ID', // 可选。默认为 location.href
+    owner: 'ivagrancy',
+    repo: 'https://github.com/ivagrancy/blog.git',
+    oauth: {
+    client_id: 'e6929897853391d3c7ef',
+    client_secret: '21e8f6c2014d9dcf95e53472788c3e9544498d25',
+    }
+  })
+  gitment.render(document.getElementById("gitment_comments"))
+</script>
+
 
 <!-- author:forvoid end -->
 
