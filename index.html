@@ -99,7 +99,7 @@
         <!-- Table of Contents -->
         
         <p><strong>作者的话</strong></p>
-<p>在最近的项目中，遇到了网站部分获取访问量接口，之前的接口是不需要任何认证直接就可以获取到，这样的行为是非常不安全的，而后框架组那边给出了利用token进行身份验证，这里就会涉及到token和OAuth协议的一些基本知识，我们本篇不会深入介绍（作者也了解的不深入），只是作为简单了解。<br>&lt; !–more–&gt;</p>
+<p>在最近的项目中，遇到了网站部分获取访问量接口，之前的接口是不需要任何认证直接就可以获取到，这样的行为是非常不安全的，而后框架组那边给出了利用token进行身份验证，这里就会涉及到token和OAuth协议的一些基本知识，我们本篇不会深入介绍（作者也了解的不深入），只是作为简单了解。</p>
 <h2 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h2><p>在web浏览器下面，我们通常用来记录身份信息就是利用cookie，通过用户名密码登录来实现认证用户的操作，但是对于手机app等一些没有像web浏览器的状态的客户端就不适用了，从而就会有token（令牌）这种技术的出现，它可以不暴露用户名和密码，给第三方提供资源等。目前实现的方式简单描述就是：通过用户名和密码登录，你可以获取到token，将token置于请求header中，后续需要获取的资源，请求头中有token权限通过就可以获取。</p>
 <h2 id="Token"><a href="#Token" class="headerlink" title="Token"></a>Token</h2><p>token的意思是“令牌”，是服务端生成的一串字符串，作为客户端进行请求的一个标识。</p>
 <p>当用户第一次登录后，服务器生成一个token并将此token返回给客户端，以后客户端只需带上这个token前来请求数据即可，无需再次带上用户名和密码。</p>
@@ -157,7 +157,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://ivagrancy.github.io/2019/01/27/token/" data-id="cjrge6io50001moad3teg29wo" class="article-share-link">分享</a>
+      <a data-url="https://ivagrancy.github.io/2019/01/27/token/" data-id="cjrgeagn70001njadf2hx9dq7" class="article-share-link">分享</a>
       
       
       
@@ -196,7 +196,6 @@
         <!-- Table of Contents -->
         
         <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<p>&lt; !–more–&gt;</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 <p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
 <h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
@@ -209,7 +208,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://ivagrancy.github.io/2019/01/27/hello-world/" data-id="cjrge6ind0000moadkqepnbd6" class="article-share-link">分享</a>
+      <a data-url="https://ivagrancy.github.io/2019/01/27/hello-world/" data-id="cjrgeagme0000njad9464z6ax" class="article-share-link">分享</a>
       
       
       
